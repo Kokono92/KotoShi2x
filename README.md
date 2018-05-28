@@ -50,6 +50,9 @@ Windows10 Pro (64bit) + VOICEROID2 Version 2.0.4.0
 ## Licenses
 This software is licensed under the MIT license.
 This software is built using following libraries:
+- Friendly.Windows, licensed under the Apache 2.0 License
+- Friendly.Windows.Grasp, licensed under the Apache 2.0 License
+- Friendly.Windows.NativeStandardControls, licensed under the Apache 2.0 License
 - Friendly.WPFStandardControls (Modified by Kokono92), licensed under the Apache 2.0 License
 	- For detail of the license, see: http://www.apache.org/licenses/LICENSE-2.0
 - NAudio by Mark Heath (https://github.com/naudio/NAudio), licensed under the Microsoft Public License
