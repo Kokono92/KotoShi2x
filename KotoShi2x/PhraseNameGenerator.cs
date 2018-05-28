@@ -49,7 +49,7 @@ namespace KotoShi2x {
             Dictionary<string, string> dict =  new Dictionary<string, string>();
 
             Uri baseDirectoryUri = new Uri(baseDirectoryPath + "\\");
-            List<string> exVoices = Directory.EnumerateFiles(Properties.Settings.Default.exVoicesBaseDirectory, "*.wav", SearchOption.AllDirectories).ToList();
+            List<string> exVoices = Directory.EnumerateFiles(baseDirectoryPath, "*.wav", SearchOption.AllDirectories).ToList();
             foreach (string exVoice in exVoices) {
                 string relPath = baseDirectoryUri.MakeRelativeUri(new Uri(exVoice)).ToString();
 
